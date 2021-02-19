@@ -8,7 +8,7 @@ function App() {
   const [city,setCity] = useState("pune");
   const [error,setError] = useState(false);
   const [loading,setLoading] = useState(false);
-  const apiKey = "2cad6e43a046ea7329896f2b952b69ce";
+  const apiKey = "YOUR API KEY";
 
   //call whenever there is a change in the city
   useEffect(()=>{
