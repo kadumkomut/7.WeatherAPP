@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+hr {
+  height: 3px;
+  background-color: #ece7e7;
+  border-radius: 10px;
+}
+
+.Main {
+  width: 100vw;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.weather {
+  width: 700px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.weather .searchBar {
+  padding: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 4fr 1fr;
+      grid-template-columns: 4fr 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.weather .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.weather .content div {
+  padding: 10px 20px;
+}
+
+.weather .content .left {
+  width: 60%;
+  padding: 10px 50px;
+  padding-right: 20px;
+}
+
+.weather .content .left .uppercase::first-letter {
+  text-transform: uppercase;
+}
+
+.weather .content .left p {
+  margin-top: -13px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #f0ebeb;
+}
+
+.weather .content .left .temperature {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.weather .content .right {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+/*# sourceMappingURL=style.css.map */
